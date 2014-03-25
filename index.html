@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jay-048</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <img src="http://thurairaj92.github.io/2048/style/images/gor.jpg" style="display:none"/>
+  <img src="http://thurairaj92.github.io/2048/style/images/jay.jpg" style="display:none"/>
+  <img src="http://thurairaj92.github.io/2048/style/images/moh.jpg" style="display:none"/>
+  <img src="http://thurairaj92.github.io/2048/style/images/var.jpg" style="display:none"/>
+  <img src="http://thurairaj92.github.io/2048/style/images/cal.jpg" style="display:none"/>
+  <img src="http://thurairaj92.github.io/2048/style/images/raj.jpg" style="display:none"/>
+  <img src="http://thurairaj92.github.io/2048/style/images/niz.jpg" style="display:none"/>
+  <img src="http://thurairaj92.github.io/2048/style/images/yaj.jpg" style="display:none"/>
+  <img src="http://thurairaj92.github.io/2048/style/images/vin.jpg" style="display:none"/>
+  <img src="http://thurairaj92.github.io/2048/style/images/man.jpg" style="display:none"/>
+  <img src="http://thurairaj92.github.io/2048/style/images/thu.jpg" style="display:none"/>
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">Prof-048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">Join the pictures and get to the <strong>Cook tile!</strong></p>
+      <a class="restart-button">New Game</a>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Try again</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same picture touch, they <strong>merge into one!</strong>
+        Move from 2 <b>Paul</b> to one <b>K. Reid</b> , then to <b>Tom Fairgrieve, Diane Horton, Steve Engels, Susan Sim, Michelle Craig, Sam Toueg, Angela Demke, Dave Wortman (HOORAY!)</b>, and finally, <b>Steve Cook</b>!!! 
+        <br>
+        Might take few secs to load initial images, I'm too lazy to do any optimization
+
+
+
+
+    </p>
+    <hr>
+    <p>
+    <strong class="important">Note:</strong> This site is <strong>NOT</strong> the official version of 2048. You can play it on your phone via <a href="http://git.io/2048">http://git.io/2048.</a> All other apps or sites are derivatives or fakes, and should be used with caution.
+    </p>
+    <hr>
+    <p>
+    Based on <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+    </p>
+  </div>
+
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_storage_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+</body>
+</html>
